@@ -67,6 +67,7 @@ export default function PathologyContactForm({ answers, onBack }) {
         _subject: "🏥 Nueva consulta - Mascota con patologías",
         _captcha: "false",
         _template: "box",
+        _cc: "nuria@hostienda.com",
         Nombre: formData.nombre,
         Email: formData.email,
         Teléfono: formData.telefono,
@@ -100,7 +101,7 @@ export default function PathologyContactForm({ answers, onBack }) {
       console.log("📧 Enviando formulario a FormSubmit...", formDataToSend);
 
       // Enviar directamente a FormSubmit usando su AJAX endpoint
-      const response = await fetch("https://formsubmit.co/ajax/nuria@hostienda.com", {
+      const response = await fetch("https://formsubmit.co/ajax/info@retorn.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
