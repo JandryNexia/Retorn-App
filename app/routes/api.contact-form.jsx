@@ -16,7 +16,7 @@ export const action = async ({ request }) => {
     
     // Usar FormSubmit con la URL correcta para AJAX
     const response = await fetch(
-      "https://formsubmit.co/ajax/info@retorn.com",
+      "https://formsubmit.co/ajax/nuria@hostienda.com",
       {
         method: "POST",
         headers: {

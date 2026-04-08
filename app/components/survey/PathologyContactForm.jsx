@@ -100,7 +100,7 @@ export default function PathologyContactForm({ answers, onBack }) {
       console.log("📧 Enviando formulario a FormSubmit...", formDataToSend);
 
       // Enviar directamente a FormSubmit usando su AJAX endpoint
-      const response = await fetch("https://formsubmit.co/ajax/info@retorn.com", {
+      const response = await fetch("https://formsubmit.co/ajax/nuria@hostienda.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
