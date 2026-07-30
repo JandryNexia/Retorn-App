@@ -67,7 +67,6 @@ export default function PathologyContactForm({ answers, onBack }) {
         _subject: "🏥 Nueva consulta - Mascota con patologías",
         _captcha: "false",
         _template: "box",
-        _cc: "nuria@hostienda.com",
         Nombre: formData.nombre,
         Email: formData.email,
         Teléfono: formData.telefono,
